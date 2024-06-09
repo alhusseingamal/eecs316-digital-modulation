@@ -30,7 +30,21 @@ plotConstellation.m: This function is used to plot the constellation diagrams of
 ### 2. figures   
 This folder contains the relevant figures for BER and constellation diagrams. Each figure is labeled according to the modulation technique it represents.  
 
-#### Overlaid Results
+#### ASK  
+![ASK Results](https://github.com/alhusseingamal/eecs316-digital-modulation/blob/main/figures/ASK_and_OOK.png)  
+
+#### PSK  
+![PSK Results](https://github.com/alhusseingamal/eecs316-digital-modulation/blob/main/figures/PSK.png)  
+We notice that, for gray-encoded data, QPSK exhibits the same characteristic BER as BPSK.  
+Also, DPSK is worse than BPSK due to incoherent detection.  
+
+#### QAM  
+![QAM Results](https://github.com/alhusseingamal/eecs316-digital-modulation/blob/main/figures/QAM.png)  
+
+#### FSK  
+![BFSK Results](https://github.com/alhusseingamal/eecs316-digital-modulation/blob/main/figures/BFSK.png)  
+
+#### Overlaid Results  
 ![Overlaid Results](https://github.com/alhusseingamal/eecs316-digital-modulation/blob/main/figures/ALL.png)  
 
 Refer to the "figures" folder for more.  
