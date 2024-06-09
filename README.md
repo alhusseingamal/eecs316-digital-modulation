@@ -1,6 +1,9 @@
 # Digital Modulation Schemes Simulation  
 ## Overview  
-This repository contains MATLAB simulations of various digital modulation techniques. The aim is to simulate these techniques through an Additive White Gaussian Noise (AWGN) channel, calculate both the simulated and theoretical Bit Error Rate (BER) against the SNR (Eb/No), and visualize the signal constellations. For each run, 120,000 input bits are randomly generated and a unit bit energy(Eb) is assumed. An equivalent of a Normalized Energy Space is achieved by scaling the amount of noise relative to the number of symbols (M) in the modulation scheme.  
+This repository contains MATLAB simulations of various digital modulation techniques.
+- The aim is to simulate these techniques through an Additive White Gaussian Noise (AWGN) channel, calculate both the simulated and theoretical Bit Error Rate (BER) against the SNR (Eb/No), and visualize the signal constellations.
+- For each run, 120,000 input bits are randomly generated and a unit bit energy(Eb) is assumed.  
+- For fair comparison between different schemes, the equivalent of a Normalized Symbol Energy Space is achieved by scaling the amount of noise relative to the number of symbols (M) in the modulation scheme.  
 
 ## Repository Structure  
 The repository is organized into two main folders:  
